@@ -4,24 +4,56 @@
   }
   
   body{
-    border: solid black 3px;
-    height:100%;
+    background-color: rgb(241, 238, 238);
+
 }
 .container{
-    border:solid 2px red ;
-    background-color: aliceblue;
+    /*! border:solid 2px red ; */
     display: grid;
     grid-template: repeat(2,auto)/ repeat(4,1fr);
-    margin:20px;
+    margin:5%;  
+    width: 75%; 
+     gap: 5%;
 
 }
 
 .item{
-border: solid black 2px;
-    padding: 10px;
-    margin: 20px;
+border: solid black 0.5px;
+border-top-left-radius: 1%;
+    padding:10%;
+    text-align: center;
+    background-color: white;
+
 }
+
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 4% 10%;
+    background-color: rgb(180, 176, 176);
+text-transform: uppercase;
+color:white;
+font-size: 1vw;
+font-weight: bold;
+margin: 8% 4%;
+
+
+}
+
+h2{
+    font-size: 1.5vw;
+margin: 8% 4%;
+}
+
+p{
+    font-size: 1vw;
+margin: 8% 4%;
+
+}
+
 
 img{
     width: 50%;
+margin: 8% 4%;
+
 }
