@@ -71,7 +71,7 @@ img {
     border: solid rgb(231, 226, 226) 1px;
 }
 
-@media (min-width: 320px) {
+@media all and (min-width: 1px) and (max-width:480px) {
 
     .container {
         display: grid;
@@ -99,7 +99,7 @@ img {
 }
 
 
-@media (min-width: 481px){
+@media all and (min-width: 481px) and (max-width:768px) {
 
     .container {
         display: grid;
@@ -126,7 +126,7 @@ img {
 
 }
 
-@media (min-width: 769px) {
+@media all and (min-width: 769px) {
 
     .container {
         display: grid;
