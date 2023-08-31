@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-   
+
     margin: 5% auto 8% auto;
     width: 80%;
     height: 90%;
@@ -21,10 +21,10 @@ body {
 .item {
     border-top-left-radius: 1%;
     padding: 5%;
-    padding-bottom:20%;
+    padding-bottom: 20%;
     text-align: center;
     background-color: white;
-    position:relative;
+    position: relative;
 
 }
 
@@ -34,14 +34,12 @@ button {
     padding: 4% 10%;
     text-transform: uppercase;
     color: rgb(151, 146, 146);
-    font-size: 1vw;
     font-weight: bold;
-    position:absolute;
+    position: absolute;
     bottom: 0;
-    left:50%;
+    left: 50%;
     transform: translate(-50%);
     margin-bottom: 5%
-
 }
 
 button:hover {
@@ -51,13 +49,11 @@ button:hover {
 }
 
 h3 {
-    font-size: 1.5vw;
     margin: 8% 4%;
     font-weight: lighter;
 }
 
 p {
-    font-size: 1vw;
     margin: 8% 4%;
 
 }
@@ -80,31 +76,75 @@ img {
     .container {
         display: grid;
         grid-template: repeat(2, auto)/ repeat(4, 1fr);
-       
+    }
+
+    h3 {
+        font-size: 1.5vw;
 
     }
-   
+
+    p {
+        font-size: 1vw;
+
+    }
+
+    button {
+        font-size: 1vw;
+
+    }
+
 }
 
-@media (min-width:481px) and (max-width:768px) {
+@media screen and (min-width:481px) and (max-width:768px) {
 
     .container {
         display: grid;
         grid-template: repeat(4, auto)/ repeat(2, 1fr);
-       
+
 
     }
 
-    
+    h3 {
+        font-size: 2.5vw;
+
+    }
+
+    p {
+        font-size: 2vw;
+
+    }
+    button {
+        font-size: 2vw;
+
+    }
+
+
+
 }
 
-@media (min-width: 1px) and (max-width:480px) {
+@media screen and (min-width: 1px) and (max-width:480px) {
 
     .container {
         display: grid;
         grid-template-columns: 100%;
-       
+
 
     }
+
+    h3 {
+        font-size: 3vw;
+
+    }
+
+    p {
+        font-size: 2.5vw;
+
+    }
+
+    button {
+        font-size: 3vw;
+
+    }
+
 
 }
