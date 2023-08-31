@@ -9,73 +9,81 @@ body {
 
 }
 
+.container {
+   
+    margin: 5% auto 8% auto;
+    width: 80%;
+    height: 90%;
+    gap: 5%;
+
+}
+
+.item {
+    border-top-left-radius: 1%;
+    padding: 5%;
+    padding-bottom:20%;
+    text-align: center;
+    background-color: white;
+    position:relative;
+
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 4% 10%;
+    text-transform: uppercase;
+    color: rgb(151, 146, 146);
+    font-size: 1vw;
+    font-weight: bold;
+    position:absolute;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%);
+    margin-bottom: 5%
+
+}
+
+button:hover {
+    border-radius: 30px;
+    background-color: rgb(180, 176, 176);
+    color: white;
+}
+
+h3 {
+    font-size: 1.5vw;
+    margin: 8% 4%;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 1vw;
+    margin: 8% 4%;
+
+}
+
+
+img {
+    border-radius: 50%;
+    width: 50%;
+    margin: 8% 4%;
+
+
+}
+
+.needBorder {
+    border: solid rgb(231, 226, 226) 1px;
+}
+
 @media screen and (min-width:769px) {
 
     .container {
         display: grid;
         grid-template: repeat(2, auto)/ repeat(4, 1fr);
-        margin: 5% auto 8% auto;
-        width: 80%;
-        height: 90%;
-        gap: 5%;
+       
 
     }
-    .item {
-        border-top-left-radius: 1%;
-        padding: 5%;
-        padding-bottom:20%;
-        text-align: center;
-        background-color: white;
-        position:relative;
-
-    }
-
-    button {
-        border: none;
-        background: none;
-        padding: 4% 10%;
-        text-transform: uppercase;
-        color: rgb(151, 146, 146);
-        font-size: 1vw;
-        font-weight: bold;
-        position:absolute;
-        bottom: 0;
-        left:50%;
-        transform: translate(-50%);
-        margin-bottom: 5%
-
-    }
-
-    button:hover {
-        border-radius: 30px;
-        background-color: rgb(180, 176, 176);
-        color: white;
-    }
-
-    h3 {
-        font-size: 1.5vw;
-        margin: 8% 4%;
-        font-weight: lighter;
-    }
-
-    p {
-        font-size: 1vw;
-        margin: 8% 4%;
-
-    }
-
-
-    img {
-        border-radius: 50%;
-        width: 50%;
-        margin: 8% 4%;
-
-
-    }
-
-    .needBorder {
-        border: solid rgb(231, 226, 226) 1px;
-    }
+   
 }
 
 @media (min-width:481px) and (max-width:768px) {
@@ -83,63 +91,11 @@ body {
     .container {
         display: grid;
         grid-template: repeat(4, auto)/ repeat(2, 1fr);
-        margin: 5%;
-        width: 75%;
-        gap: 5%;
-        border: red solid 2px;
+       
 
     }
 
-    .item {
-        border: solid black 0.5px;
-        border-top-left-radius: 1%;
-        padding: 10%;
-        text-align: center;
-        background-color: white;
-
-    }
-
-    button {
-        border: none;
-        background: none;
-        padding: 4% 10%;
-        text-transform: uppercase;
-        color: rgb(151, 146, 146);
-        font-size: 1vw;
-        font-weight: bold;
-        margin: 8% 4%;
-    }
-
-    button:hover {
-        border-radius: 30px;
-        background-color: rgb(180, 176, 176);
-        color: white;
-    }
-
-    h3 {
-        font-size: 1.5vw;
-        margin: 8% 4%;
-        font-weight: lighter;
-    }
-
-    p {
-        font-size: 1vw;
-        margin: 8% 4%;
-
-    }
-
-
-    img {
-        border-radius: 50%;
-        width: 50%;
-        margin: 8% 4%;
-
-
-    }
-
-    .needBorder {
-        border: solid rgb(231, 226, 226) 1px;
-    }
+    
 }
 
 @media (min-width: 1px) and (max-width:480px) {
@@ -147,60 +103,8 @@ body {
     .container {
         display: grid;
         grid-template-columns: 100%;
-        margin: 5%;
-        width: 75%;
-        gap: 5%;
+       
 
     }
 
-    .item {
-        border: solid black 0.5px;
-        border-top-left-radius: 1%;
-        padding: 10%;
-        text-align: center;
-        background-color: white;
-
-    }
-
-    button {
-        border: none;
-        background: none;
-        padding: 4% 10%;
-        text-transform: uppercase;
-        color: rgb(151, 146, 146);
-        font-size: 1vw;
-        font-weight: bold;
-        margin: 8% 4%;
-    }
-
-    button:hover {
-        border-radius: 30px;
-        background-color: rgb(180, 176, 176);
-        color: white;
-    }
-
-    h3 {
-        font-size: 1.5vw;
-        margin: 8% 4%;
-        font-weight: lighter;
-    }
-
-    p {
-        font-size: 1vw;
-        margin: 8% 4%;
-
-    }
-
-
-    img {
-        border-radius: 50%;
-        width: 50%;
-        margin: 8% 4%;
-
-
-    }
-
-    .needBorder {
-        border: solid rgb(231, 226, 226) 1px;
-    }
 }
