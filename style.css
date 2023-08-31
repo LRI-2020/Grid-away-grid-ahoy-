@@ -71,31 +71,35 @@ img {
     border: solid rgb(231, 226, 226) 1px;
 }
 
-@media screen and (min-width:769px) {
+@media (min-width: 320px) {
 
     .container {
         display: grid;
-        grid-template: repeat(2, auto)/ repeat(4, 1fr);
+        grid-template-columns: 100%;
+
+
     }
 
     h3 {
-        font-size: 1.5vw;
+        font-size: 3vw;
 
     }
 
     p {
-        font-size: 1vw;
+        font-size: 2.5vw;
 
     }
 
     button {
-        font-size: 1vw;
+        font-size: 3vw;
 
     }
 
+
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
+
+@media (min-width: 481px){
 
     .container {
         display: grid;
@@ -122,29 +126,27 @@ img {
 
 }
 
-@media screen and (min-width: 1px) and (max-width:480px) {
+@media (min-width: 769px) {
 
     .container {
         display: grid;
-        grid-template-columns: 100%;
-
-
+        grid-template: repeat(2, auto)/ repeat(4, 1fr);
     }
 
     h3 {
-        font-size: 3vw;
+        font-size: 1.5vw;
 
     }
 
     p {
-        font-size: 2.5vw;
+        font-size: 1vw;
 
     }
 
     button {
-        font-size: 3vw;
+        font-size: 1vw;
 
     }
 
-
 }
+
