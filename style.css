@@ -14,32 +14,28 @@ body {
     margin: 5% auto 8% auto;
     width: 80%;
     height: 90%;
-    gap: 5%;
+    gap: 7%;
 
 }
 
 .item {
-    border-top-left-radius: 1%;
-    padding: 5%;
-    padding-bottom: 20%;
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    place-items: center;
     text-align: center;
+    border-top-left-radius: 1%;
     background-color: white;
-    position: relative;
-
+    padding: 15%
+    
 }
 
 button {
     border: none;
     background: none;
-    padding: 4% 10%;
     text-transform: uppercase;
     color: rgb(151, 146, 146);
     font-weight: bold;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    margin-bottom: 5%
+
 }
 
 button:hover {
@@ -49,22 +45,13 @@ button:hover {
 }
 
 h3 {
-    margin: 8% 4%;
     font-weight: lighter;
-}
-
-p {
-    margin: 8% 4%;
-
 }
 
 
 img {
-    border-radius: 50%;
-    width: 50%;
-    margin: 8% 4%;
-
-
+    border-radius: 50%;    
+    width: 60%;
 }
 
 .needBorder {
@@ -76,9 +63,11 @@ img {
     .container {
         display: grid;
         grid-template-columns: 100%;
-
-
+        column-gap: 2%;
+        row-gap: 1%;
+        padding-bottom: 15;
     }
+
 
     h3 {
         font-size: 3vw;
@@ -131,6 +120,7 @@ img {
     .container {
         display: grid;
         grid-template: repeat(2, auto)/ repeat(4, 1fr);
+        /*! column-gap: 15px; */
     }
 
     h3 {
